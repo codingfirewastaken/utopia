@@ -328,31 +328,31 @@ local Library do
 
     local Themes = {
         ["Default"] = {
-            ["Window Background"] = FromRGB(43, 43, 43),
-            ["Inline"] = FromRGB(12, 12, 12),
-            ["Text"] = FromRGB(180, 180, 180),
-            ["Section Background"] = FromRGB(19, 19, 19),
-            ["Element"] = FromRGB(63, 63, 63),
-            ["Border"] = FromRGB(68, 68, 68),
-            ["Outline"] = FromRGB(0, 0, 0),
-            ["Dark Liner"] = FromRGB(56, 56, 56),
-            ["Risky"] = FromRGB(255, 50, 50),
-            ["Accent"] = FromRGB(31, 226, 130)
-        },
-
-        ["Bitchbot"] = {
-            ["Window Background"] = FromRGB(33, 33, 33),
-            ["Inline"] = FromRGB(14, 14, 14),
-            ["Text"] = FromRGB(255, 255, 255),
-            ["Section Background"] = FromRGB(18, 18, 18),
-            ["Element"] = FromRGB(14, 14, 14),
-            ["Border"] = FromRGB(0, 0, 0),
-            ["Outline"] = FromRGB(19, 19, 19),
-            ["Dark Liner"] = FromRGB(21, 21, 21),
-            ["Risky"] = FromRGB(255, 50, 50),
-            ["Accent"] = FromRGB(158, 79, 249)
-        },
-
+  			["Window Background"] = FromRGB(43, 43, 43),
+ 			["Inline"] = FromRGB(18, 18, 18),
+		    ["Text"] = FromRGB(180, 180, 180),
+		    ["Section Background"] = FromRGB(19, 19, 19),
+   			["Element"] = FromRGB(23, 22, 22),
+		    ["Border"] = FromRGB(14, 14, 14),
+   			["Outline"] = FromRGB(0, 0, 0),
+    		["Dark Liner"] = FromRGB(53, 53, 53),
+    		["Risky"] = FromRGB(255, 141, 141),
+    		["Accent"] = FromRGB(216, 216, 216)
+		},
+		
+        ["GPT"] = {
+    		["Window Background"] = FromRGB(20, 20, 25),   -- deep spacey gray-blue
+    		["Inline"] = FromRGB(15, 15, 20),              -- slightly darker for depth
+    		["Text"] = FromRGB(220, 220, 235),             -- soft white-gray
+    		["Section Background"] = FromRGB(30, 30, 38),  -- muted slate
+    		["Element"] = FromRGB(45, 45, 55),             -- element blocks pop a bit
+    		["Border"] = FromRGB(70, 70, 90),              -- steel-gray border
+    		["Outline"] = FromRGB(0, 0, 0),                -- solid black outline
+		    ["Dark Liner"] = FromRGB(100, 100, 140),       -- subtle indigo-ish divider
+    		["Risky"] = FromRGB(255, 85, 120),             -- neon pink/red for danger
+    		["Accent"] = FromRGB(90, 200, 255)             -- bright cyan accent
+		}, -- Yep gpt made that theme XD
+		
         ["Onetap"] = {
             ["Window Background"] = FromRGB(71, 71, 71),
             ["Inline"] = FromRGB(30, 30, 30),
