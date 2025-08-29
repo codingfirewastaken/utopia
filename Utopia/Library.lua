@@ -344,14 +344,14 @@ local Library do
     		["Window Background"] = FromRGB(20, 20, 25),   -- deep spacey gray-blue
     		["Inline"] = FromRGB(15, 15, 20),              -- slightly darker for depth
     		["Text"] = FromRGB(220, 220, 235),             -- soft white-gray
-    		["Section Background"] = FromRGB(30, 30, 38),  -- muted slate
+    		["Section Background"] = FromRGB(10, 10, 18),  -- muted slate
     		["Element"] = FromRGB(45, 45, 55),             -- element blocks pop a bit
     		["Border"] = FromRGB(70, 70, 90),              -- steel-gray border
     		["Outline"] = FromRGB(0, 0, 0),                -- solid black outline
 		    ["Dark Liner"] = FromRGB(100, 100, 140),       -- subtle indigo-ish divider
     		["Risky"] = FromRGB(255, 85, 120),             -- neon pink/red for danger
     		["Accent"] = FromRGB(90, 200, 255)             -- bright cyan accent
-		}, -- Yep gpt made that theme XD
+		}, -- Yep gpt made that theme XD I've improved it a little bit but the whole idea was made by GPT
 		
         ["Onetap"] = {
             ["Window Background"] = FromRGB(71, 71, 71),
