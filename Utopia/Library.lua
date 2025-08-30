@@ -353,18 +353,19 @@ local Library do
     		["Accent"] = FromRGB(90, 200, 255)             -- bright cyan accent
 		}, -- Yep gpt made that theme XD I've improved it a little bit but the whole idea was made by GPT
 		
-        ["Onetap"] = {
-            ["Window Background"] = FromRGB(71, 71, 71),
-            ["Inline"] = FromRGB(30, 30, 30),
-            ["Text"] = FromRGB(244, 239, 232),
-            ["Section Background"] = FromRGB(20, 20, 20),
-            ["Element"] = FromRGB(33, 33, 33),
-            ["Border"] = FromRGB(0, 0, 0),
-            ["Outline"] = FromRGB(51, 51, 51),
-            ["Dark Liner"] = FromRGB(22, 22, 20),
-            ["Risky"] = FromRGB(255, 50, 50),
-            ["Accent"] = FromRGB(237, 170, 0)
-        },
+    ["Catppuccin"] = {
+    	["Window Background"] = FromRGB(24, 24, 37),   -- base
+    	["Inline"] = FromRGB(17, 17, 27),              -- mantle
+    	["Text"] = FromRGB(205, 214, 244),             -- text (latte white-blue)
+    	["Section Background"] = FromRGB(30, 30, 46),  -- surface0
+    	["Element"] = FromRGB(49, 50, 68),             -- surface1
+    	["Border"] = FromRGB(69, 71, 90),              -- surface2
+    	["Outline"] = FromRGB(0, 0, 0),                -- still pure black for edges
+    	["Dark Liner"] = FromRGB(88, 91, 112),         -- overlay0
+    	["Risky"] = FromRGB(243, 139, 168),            -- red (love)
+    	["Accent"] = FromRGB(137, 180, 250)            -- blue (sapphire)
+	}, -- made with gpt cuz im lazy. Yes we are vibe coding themes, no i swear im not gonna skid off of gpt for actual shit
+
 
         ["Aqua"] = {
             ["Window Background"] = FromRGB(71, 84, 99),
