@@ -1611,7 +1611,7 @@ local Library do
                     AutomaticCanvasSize = Enum.AutomaticSize.Y,
                     ScrollBarThickness = 0,
                     Name = "\0",
-                    MidImage = "rbxassetid://85239668542938",
+                    MidImage = "rbxassetid://85239668542938", -- texture 1
                     TopImage = "rbxassetid://85239668542938",
                     BottomImage = "rbxassetid://85239668542938",
                     BackgroundTransparency = 1,
@@ -2334,7 +2334,7 @@ local Library do
                 BorderColor3 = FromRGB(0, 0, 0),
                 Name = "\0",
                 AnchorPoint = Vector2New(1, 0.5),
-                Image = "rbxassetid://97269400371594",
+                Image = "rbxassetid://97269400371594", -- texture arrow
                 BackgroundTransparency = 1,
                 Position = UDim2New(1, -2, 0.5, 0),
                 Size = UDim2New(0, 14, 1, -2),
@@ -2349,7 +2349,7 @@ local Library do
                 AutomaticCanvasSize = Enum.AutomaticSize.Y,
                 ScrollBarThickness = 2,
                 Size = UDim2New(1, -85, 0, Data.MaxSize),
-                MidImage = "rbxassetid://85239668542938",
+                MidImage = "rbxassetid://85239668542938", -- texture 1
                 TopImage = "rbxassetid://85239668542938",
                 BottomImage = "rbxassetid://85239668542938",
                 AnchorPoint = Vector2New(1, 0),
@@ -3978,7 +3978,7 @@ local Library do
             Items["Holder"] = Instances:Create("ScrollingFrame", {
                 Parent = Items["Listbox"].Instance,
                 ScrollBarImageColor3 = FromRGB(0, 0, 0),
-                MidImage = "rbxassetid://7783554086",
+                MidImage = "rbxassetid://7783554086", -- texture circle
                 Active = true,
                 AutomaticCanvasSize = Enum.AutomaticSize.Y,
                 ScrollBarThickness = 2,
@@ -4467,7 +4467,7 @@ local Library do
                 BorderColor3 = FromRGB(0, 0, 0),
                 Name = "\0",
                 AnchorPoint = Vector2New(0, 1),
-                Image = "rbxassetid://98200387761744",
+                Image = "rbxassetid://98200387761744", -- texture X
                 BackgroundTransparency = 1,
                 Position = UDim2New(0, 8, 1, -8),
                 Size = UDim2New(0, 70, 0, 70),
@@ -4484,7 +4484,7 @@ local Library do
             Items["Holder"] = Instances:Create("ScrollingFrame", {
                 Parent = Items["Playerlist"].Instance,
                 ScrollBarImageColor3 = FromRGB(31, 226, 130),
-                MidImage = "rbxassetid://7783554086",
+                MidImage = "rbxassetid://7783554086", -- texture circle
                 Active = true,
                 AutomaticCanvasSize = Enum.AutomaticSize.Y,
                 ScrollBarThickness = 1,
@@ -4785,7 +4785,7 @@ local Library do
                 else
                     Playerlist.Player = nil
                     PlayerData:Toggle("Inactive")
-                    Items["Avatar"].Instance.Image = "rbxassetid://98200387761744"
+                    Items["Avatar"].Instance.Image = "rbxassetid://98200387761744" -- texture x
                     Items["Username"].Instance.Text = "None"
                     Items["UserID"].Instance.Text = "None"
                 end
